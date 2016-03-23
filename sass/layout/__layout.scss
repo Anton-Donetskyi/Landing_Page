@@ -1,0 +1,14 @@
+html{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.is-no-js {
+	display: none;				/*hide if js dont work*/
+}
+.no-js .is-no-js {				/* show if js work*/
+	display: block;
+}
+
+@import "header";
+@import "content";
